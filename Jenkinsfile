@@ -56,6 +56,7 @@ pipeline {
                 sh """                
                 sudo apt install pipx -y
                 pipx install checkov
+                pipx ensurepath
                 #sudo pip3 install --upgrade pip
                 #sudo pip3 install checkov
                 #checkov -d .
