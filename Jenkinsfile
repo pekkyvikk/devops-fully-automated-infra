@@ -54,7 +54,7 @@ pipeline {
             steps {
                 
                 sh """                
-                sudo apt install pipx
+                sudo apt install pipx -y
                 pipx install checkov
                 #sudo pip3 install --upgrade pip
                 #sudo pip3 install checkov
